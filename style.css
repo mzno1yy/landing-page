@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-one {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+}
+
+.part-two {
+  display: flex;
+}
+
+.container {
+  display: flex;
+}
+
+#card {
+  display: flex;
+}
+
+.part-three {
+  display: flex;
+}
+
+.part-four {
+  display: flex;
+}
+
+.sign-up {
+  display: flex;
+}
