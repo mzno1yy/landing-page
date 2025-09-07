@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2937;
+  background-color: #3a5e83;
   padding: 5px 200px;
   height: 535px;
 }
@@ -41,15 +41,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #3a5e83;
+  color: #fdf7f0;
+  height: 100px;
 }
 
 .part-one {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2937;
+  background-color: #3a5e83;
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 90px;
 }
 
 .hero {
@@ -61,28 +64,21 @@ body {
   margin: 0;
 }
 
-.image-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  height: 221px;
-  width: 552px;
-  background-color: #69717c;
-  color: #e5e7eb;
-}
-
 .part-two {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 500px;
-  margin: 0 300px;
+  height: 450px;
+  padding: 0 300px;
+  gap: 20px;
+  background-color: #fdf7f0;
 }
 
 .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
 
 #card {
@@ -94,43 +90,65 @@ body {
 
 .part-three {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-color: #d4dcc1;
+  padding: 0 300px;
+}
+
+.part-four-base {
+  background-color: #fdf7f0;
 }
 
 .part-four {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin: 100px 200px;
+  padding: 50px 120px;
+  box-sizing: border-box;
+  background-color: #f69074;
+  border-radius: 10px;
 }
 
 .sign-up {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #logo {
   font-size: 24px;
-  color: #f9faf8;
+  color: #fdf7f0;
   font-weight: bold;
 }
 
 .header-links {
   font-size: 18px;
-  color: #e5e7eb
+  color: #fdf7f0;
 }
 
 #main {
   font-size: 48px;
   font-weight: 900;
-  color: #f9faf8;
+  color: #fdf7f0;
   margin: 0;
+  line-height: 50px;
 }
 
 #second {
   margin: 5px 0 10px 0;
   font-size: 18px;
-  color: #e5e7eb
+  color: #fdf7f0;
 }
 
 button {
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: #f69074;
+  color: #fdf7f0;
   padding: 5px 30px;
   border-radius: 5px;
   font-size: 15px;
@@ -148,6 +166,56 @@ button {
 #image-box {
   height: 150px;
   width: 150px;
-  border: 5px solid #3882f6;
   margin: 0;
+  border-radius: 5px;
+}
+
+#subtext {
+  text-align: center;
+  width: 150px;
+  color: #1f2937
+}
+
+#quote {
+  text-align: left;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 200;
+  font-style: italic;
+  margin: 0;
+  width: 100%;
+}
+
+#quote-sub {
+  text-align: right;
+  font-size: 30px;
+  color: #1f2937;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+}
+
+#call-action {
+  margin: 0;
+  font-size: 30px;
+  color: #fdf7f0;
+  font-weight: bold;
+}
+
+#call-action-sub {
+  margin: 0;
+  font-size: 20px;
+  color: #fdf7f0;
+}
+
+#four {
+  background-color: #f69074;
+  color: #fdf7f0;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 3px solid #fdf7f0;
+  height: 40px;
+  width: 130px;
+  font-weight: bold;
 }
